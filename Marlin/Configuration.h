@@ -402,9 +402,9 @@
 
   // Anet AM8-Custom
   // Measured with M303 E0 S235 C3
-  #define DEFAULT_Kp 20.00
-  #define DEFAULT_Ki 1.29
-  #define DEFAULT_Kd 77.42
+  #define DEFAULT_Kp 26.19
+  #define DEFAULT_Ki 1.70
+  #define DEFAULT_Kd 100.84
 
 #endif // PIDTEMP
 
@@ -686,7 +686,7 @@
  *
  * Enable this option for a probe connected to the Z Min endstop pin.
  */
-//#define Z_MIN_PROBE_USES_Z_MIN_ENDSTOP_PIN
+#define Z_MIN_PROBE_USES_Z_MIN_ENDSTOP_PIN
 
 /**
  * Z_MIN_PROBE_ENDSTOP
@@ -728,7 +728,7 @@
  * A Fix-Mounted Probe either doesn't deploy or needs manual deployment.
  *   (e.g., an inductive probe or a nozzle-based probe-switch.)
  */
-//#define FIX_MOUNTED_PROBE
+#define FIX_MOUNTED_PROBE
 
 /**
  * Z Servo Probe, such as an endstop switch on a rotating arm.
